@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /** CSS reset **/
 
 html, body, div, span, applet, object, iframe,
@@ -441,4 +443,18 @@ pre {
 .github-ribbon {
     display: block;
 }
+}
+
+.ja {
+	font-size: 0.750em;
+    background-color: #EEEEEE;
+    border-radius: 6px 6px 6px 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ja:before {
+    content: "日本語訳：";
+    text-decoration: underline;
+    font-style: italic;
 }
